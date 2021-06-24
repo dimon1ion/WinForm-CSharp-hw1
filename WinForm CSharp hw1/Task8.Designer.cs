@@ -509,6 +509,9 @@ namespace WinForm_CSharp_hw1
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximumSize = new System.Drawing.Size(607, 510);
+            this.MinimumSize = new System.Drawing.Size(607, 510);
             this.Name = "Task8";
             this.Text = "Task8";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Task8_FormClosing);
