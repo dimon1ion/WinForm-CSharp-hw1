@@ -38,6 +38,7 @@ namespace WinForm_CSharp_hw1
                         if (!(0 < day && day <= DateTime.DaysInMonth(year, month)))
                         {
                             MessageBox.Show($"This month is {DateTime.DaysInMonth(year, month)} days", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
                         }
                     }
                     else

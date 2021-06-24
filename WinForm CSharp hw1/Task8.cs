@@ -22,7 +22,7 @@ namespace WinForm_CSharp_hw1
             {
                 arrCostCafeFood[i] = 0f;
             }
-            timer.Interval = 1000;
+            timer.Interval = 10000;
             timer.Tick += Timer_Tick;
             TodayWork = 0;
         }
