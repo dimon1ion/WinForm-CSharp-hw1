@@ -16,7 +16,7 @@ namespace WinForm_CSharp_hw1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Task8());
+            Application.Run(new Task1());
         }
     }
 }

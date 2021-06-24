@@ -41,8 +41,7 @@ namespace WinForm_CSharp_hw1
                         return;
                     }
                     Timer t = new Timer();
-                    DateTime date = new DateTime(year, month, day);
-                    TimeSpan time = date.Subtract(DateTime.Now);
+                    TimeSpan time = new DateTime(year, month, day).Subtract(DateTime.Now);
 
                     if (YearRadioButton.Checked)
                     {
