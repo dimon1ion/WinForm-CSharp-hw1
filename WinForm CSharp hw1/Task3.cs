@@ -28,11 +28,11 @@ namespace WinForm_CSharp_hw1
                     this.Close();
                     return;
                 }
-                if ((e.X < 10 || e.Y < 10) || (e.X < 10 && e.Y < this.Top - 10) || (e.Y < 10 && e.X < this.Width - 10) || (e.X < this.Width - 10 && e.Y < this.Top - 10))
+                if ((e.X < 10 || e.Y < 10) || (e.X < 10 && e.Y < this.Top - 50) || (e.Y < 10 && e.X < this.Width - 20) || (e.X < this.Width - 20 && e.Y < this.Top - 50))
                 {
                     MessageBox.Show("The current point is outside the rectangle");
                 }
-                else if ((e.X == 10 && e.Y == 10) || (e.X == 10 && e.Y == this.Top - 10) || (e.Y == 10 && e.X == this.Width - 10) || (e.X < this.Width - 10 && e.Y < this.Top - 10))
+                else if ((e.X == 10 && e.Y == 10) || (e.X == 10 && e.Y == this.Top - 50) || (e.Y == 10 && e.X == this.Width - 20) || (e.X < this.Width - 20 && e.Y < this.Top - 50))
                 {
                     MessageBox.Show("The current point is on the border of the rectangle");
                 }
